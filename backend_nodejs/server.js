@@ -8,7 +8,7 @@ const axios = require('axios'); // <-- NEW: For Live API integration
 // const { Pool } = require('pg'); // Ready for when you connect to PostgreSQL
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // --- Database Setup (Mocked for now) ---
 // const pool = new Pool({
