@@ -2,7 +2,7 @@ SweldoSync - Final Project Submission
 
 This project is a functional MVP for SweldoSync, a multi-industry payroll computation engine designed for Philippine SMEs. It moves businesses from manual spreadsheets to an automated, "per-run" batch processing system.
 
-Deployment Link: [sweldosync.vercel.app] 
+Deployment Link: [[sweldosync.vercel.app](https://sweldosync.vercel.app/)] 
 
 Git Repo Link: [https://github.com/DwyanneTronn/GC2_SweldoSyncMVP]
 
