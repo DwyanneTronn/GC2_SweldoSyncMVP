@@ -10,7 +10,7 @@ import 'package:flutter/foundation.dart' show kIsWeb; // To check if web
 // --- Configuration ---
 // This URL must match the port your backend server is running on.
 // For web, 'localhost' works. For Android emulator, use '10.0.2.2'.
-const String baseApiUrl = 'https://gc2-sweldosyncmvp.onrender.com/api'
+const String baseApiUrl = 'https://gc2-sweldosyncmvp.onrender.com/api';
 const String calculateApiUrl = '$baseApiUrl/calculate';
 const String holidaysApiUrl = '$baseApiUrl/holidays'; // <-- NEW
 
