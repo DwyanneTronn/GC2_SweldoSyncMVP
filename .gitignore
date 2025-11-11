@@ -1,0 +1,17 @@
+Flutter
+
+/frontend_flutter/build/
+/frontend_flutter/.dart_tool/
+/frontend_flutter/.flutter-plugins
+/frontend_flutter/.flutter-plugins-dependencies
+/frontend_flutter/.pub-cache/
+/frontend_flutter/.pub/
+
+Node.js
+
+/backend_nodejs/node_modules/
+/backend_nodejs/npm-debug.log
+
+OS Files
+
+.DS_Store
