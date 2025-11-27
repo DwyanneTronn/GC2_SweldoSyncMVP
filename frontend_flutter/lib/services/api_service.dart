@@ -3,8 +3,9 @@ import 'dart:convert';
 
 class ApiService {
   // For local development, use localhost. For production, use the deployed URL
-  // static const String baseApiUrl = 'https://gc2-sweldosyncmvp.onrender.com/api';
-  static const String baseApiUrl = 'http://localhost:3000/api';
+  static const String baseApiUrl = 'https://gc2-sweldosyncmvp.onrender.com/api';
+  // For local development, uncomment below and comment above:
+  // static const String baseApiUrl = 'http://localhost:3000/api';
   static String? _authToken;
 
   static void setAuthToken(String? token) {
