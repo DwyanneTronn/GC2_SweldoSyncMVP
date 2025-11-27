@@ -1,16 +1,36 @@
-Flutter
+# Environment variables
+.env
+backend_nodejs/.env
+*.env
+!.env.example
 
-/frontend_flutter/.dart_tool/
-/frontend_flutter/.flutter-plugins
-/frontend_flutter/.flutter-plugins-dependencies
-/frontend_flutter/.pub-cache/
-/frontend_flutter/.pub/
+# Dependencies
+node_modules/
+frontend_flutter/.dart_tool/
+frontend_flutter/build/
 
-Node.js
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-/backend_nodejs/node_modules/
-/backend_nodejs/npm-debug.log
-
-OS Files
-
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Flutter
+frontend_flutter/.flutter-plugins
+frontend_flutter/.flutter-plugins-dependencies
+frontend_flutter/.packages
+frontend_flutter/.pub-cache/
+frontend_flutter/.pub/
+
+# Build outputs
+frontend_flutter/build/
+backend_nodejs/dist/
