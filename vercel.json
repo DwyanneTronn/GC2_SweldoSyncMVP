@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend_flutter && flutter pub get && flutter build web --release",
+  "buildCommand": "cd frontend_flutter && flutter pub get && flutter build web --release --web-renderer html",
   "outputDirectory": "frontend_flutter/build/web",
   "installCommand": "cd frontend_flutter && flutter pub get",
   "framework": null,
@@ -7,6 +7,17 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
     }
   ]
 }
