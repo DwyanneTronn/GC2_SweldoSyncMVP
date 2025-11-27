@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bash build.sh",
+  "buildCommand": "chmod +x ./build.sh && ./build.sh",
   "outputDirectory": "frontend_flutter/build/web",
   "installCommand": "echo 'Flutter installed during build'",
   "framework": null,
